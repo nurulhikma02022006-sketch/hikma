@@ -7,7 +7,7 @@ from typing import List, Tuple
 
 st.set_page_config(page_title="Prediksi Harga Rumah", layout="centered")
 
-st.title("Prediksi Harga Rumah (Linear Regression, tanpa library lain)")
+st.title("Prediksi Harga Rumah")
 st.markdown("""
 Aplikasi demo regresi linear multivariat.  
 Anda bisa pakai *dataset contoh* atau **unggah CSV** (kolom: `luas`, `kamar`, `harga`).
@@ -226,4 +226,5 @@ st.markdown("""
 - Aplikasi ini dibuat untuk demo pendidikan. Untuk produksi/distribusi gunakan library numerik (NumPy, scikit-learn) untuk stabilitas dan performa.
 - Jika Anda ingin, saya bisa modifikasi kode agar mendukung fitur tambahan: validasi silang, regularisasi, lebih banyak fitur, atau ekspor model.
 """)
+
 
